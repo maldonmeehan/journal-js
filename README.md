@@ -1,4 +1,4 @@
-# EPICODUS STUDENT PROJECT | Modern JS Apps | Using an Api
+# EPICODUS STUDENT PROJECT | Modern JS Apps | Practice with Gulp and npm
 
 #### Journal, August 2, 2016
 
