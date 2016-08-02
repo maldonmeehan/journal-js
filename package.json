@@ -1,0 +1,23 @@
+{
+  "name": "journal",
+  "version": "1.0.0",
+  "description": "#### Journal, August 2, 2016",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maldonmeehan/journal-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maldonmeehan/journal-js/issues"
+  },
+  "homepage": "https://github.com/maldonmeehan/journal-js#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1"
+  }
+}
