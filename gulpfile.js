@@ -5,6 +5,8 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var utilities = require('gulp-util');
 var buildProduction = utilities.env.production;
+var del = require('del');
+
 
 gulp.task('jsBrowserify', ['concatInterface'], function() {
   return browserify({ entries: ['./tmp/allConcat.js'] })
@@ -23,6 +25,10 @@ gulp.task("minifyScripts", ["jsBrowserify"], function(){
   return gulp.src("./build/js/app.js")
     .pipe(uglify())
     .pipe(gulp.dest("./build/js"));
+});
+
+gulp.task("clean", function(){
+  return del(['build', 'tmp']);
 });
 
 gulp.task("build", function(){
